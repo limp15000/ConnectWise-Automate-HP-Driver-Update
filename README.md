@@ -12,7 +12,7 @@ This allow you to define the settings that you want applied to HP SDM. You can i
 Open HP SDM on a computer. Go to tools and configuration options. Now select the operating systems you have and the drivers and tools you want to update. Save the settings. 
 Now copy the C:\ProgramData\HP\HP SoftPaq Download Manager\Default.sdm and place it on your Automate server in Transfer\Apps\hpsdm\default.txt and rename it to default.txt.
 
-3.HP Softpaq Driver Download (Batch)
+3. HP Softpaq Driver Download (Batch)
 This script starts by setting the last run date in the EDF's. Then run a batch script which define the TEMP and TMP variables to c:\Windows\temp\hp
 HP SDM when running in SYSTEM will fail to download the drivers if those variables aren't set. 
 Once Download is complete the files are transferred automatically to C:\ProgramData\HP\HP SoftPaq Download Manager\SSMInstall
