@@ -1,0 +1,128 @@
+<LabTech_Expansion
+	Version="120.256"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6317</ScriptId>
+				<FolderId>256</FolderId>
+				<ScriptName>Install HP SoftPaq Download Manager</ScriptName>
+				<ScriptNotes>http://ftp.hp.com/pub/caps-softpaq/cmit/HP_SDM.html
+For HP SDM : 4.3.19.0	sp81146	07/7/2017
+Hash may change in case of update from HP.
+After install run the script to get settings for SDM to avoid HP crapware.
+
+Thomas Eklund - Kyos 15.01.2018
+
+</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEamh9jsDyyUXGjIlrcp+kTsjAtaSP29tKiUFfDzPANDBy9w9DhzvbWQDm0aDjkk8I1hW2TQo/RMMhnDvbv1seRQVMm7Go7ZOTcvPBZYSSCZ0QwrgkXhZSF1ORygnyGwM1F3/Z3jJ1vwrj9H3z7Q/K1kXzjNnrl6MMyRTlHTStlBWVMMbWutFbc/vgJgHz+aLn4AFPIfLXhAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN2YUW+bMBDH3yftO/CSRwI2GEIUIU1N2lRq1SiZ9hSpMrZZ0AgwMFv77WcI6QgqVpvA0uwpvjtj7J//nH2ZrEgaJHyKOXY/f1KUyc7OSkOYsyee4iJ6HbCQZoq2DyxwireMs7TmuwljD4c1x26wb6JTEEcumGiHjoNeN3lAXQM4xLFNovpYRyoAzFY9hKGq60hHlmfbCOD9KOUD5Zy1+qSr4VacJS+r+EJ4NYGqVfmv86i0b2kRq1n1RYLGomHDNhq22bBRjUecclcX8y1+K99VHPEgylnhf2lXsYfsLtgG5SP7ZhW5jSiLOC4XI6J1s47kLwUJFijDAp2PDAZY5yNjSMi40/h3FMaYKjkPwoA/KzRIGeHhs+Kn8VaZL4bKhvMkG2uaz5PhJhmSeKsluacRnGRqFgsv/qnNF4+r6f3jivE8GbInNtGq8bvkDi5JkFCXUAev83FPQA0P0bp3X6+DkC0w31QdjHexhkdo3JbCBmfT+P0UKXOcbXaSJizlhdgVdSN8voCkZMkImjYsaCqicy/iNf578RJg6ph60NItYhLHtw3iGQ6yHGCBEWVAKlSBvdiio7RqXpRWj2I7CHn2i4jcPFgnmPzA31m2ni/Wb8wFV/E2ycUV6KSMgLoWcK8JwZZA9hBAhmH7qu5Duru8YeqIyxukvukgh2K/ZR9OzAHWJSG0ZTptUVRTtkaLIGfL5cPydRW64/2VpHhHKG7u+70wpWztS2Irva2641lEd+P2osJR16Tg2U72Vq10S8y5pLMbIAmw950jzc9ZzVq+Z/2oEwW0FVLgIypR+skOBDRSJESW5SEf9FP+dF7/9IkLmf+sHgdHFCtnzGhSIen9SKfz6uMNp+Perv6z+wO4saYlwhMAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>319c974c-fa05-11e7-b5a2-005056b7751a</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>6292</ScriptId>
+					<FolderId>0</FolderId>
+					<ScriptName>GetLTFile</ScriptName>
+					<ScriptNotes>Script to retrieve a file, including file checks and aborts as needed. .ZIP files are automatically extracted.
+ComputerFilePath = Path and filename to save the downloaded file
+LTFilePath = Path to file in LTShare, or URL to file download. See Supported Examples below. LTPFilePath now accepts multiple sources, separated by "|".
+Optional Variables: 
+ComputerFileForced = 1: Forces file to be redownloaded bypassing cache
+ComputerFileForced = 0 (or missing): File will be downloaded from cache, file download will be skipped if file already exists
+LTFileMD5Hash: If defined, file will be rejected if the MD5 hash does not match.
+LTFileMD5Hash = GENERATE - Only for LTShare downloads, calculates MD5 checksum on server
+ComputerFileSizeMinBytes = X&gt;0: Sets the minimum accepted size for the downloaded file. If the file is smaller it is assumed corrupt/incomplete. 
+ComputerFileSizeMaxBytes = X&gt;0: Sets the maximum accepted size for the downloaded file. If the file is larger it is assumed corrupt or modified. 
+ComputerFilePreserve = 1: Do not perform post download processing (unzip, etc.)
+ComputerFilePreserve = 0 (or missing): Attempt to extract or prepare compressed archive. Modifies ComputerFilePath value to be the folder path of the extracted files.
+VERBOSE &gt; 0 - Enables additional script logging
+VERBOSE &lt;= 0 (Default) - Normal script output
+ComputerFileDownloadLimit = X &gt; 0 - Number of download attempts allowed per source.
+
+Return Variables:
+ComputerFilePath = "ERROR" if the file could not be downloaded.
+ComputerFilePath = The path to the downloaded file
+ComputerFilePath = The path to the folder where the downloaded file was extracted if ComputerFilePreserve&lt;&gt;1
+
+Examples:
+LTShare: LTFilePath=Utilities\filenamehere.exe
+HTTP: LTFilePath=http://www.download.com/myfile/filenamehere.exe
+HTTPS: LTFilePath=https://www.download.com/myfile/filenamehere.exe
+UNC Path: LTFilePath=\\localserver\sharename\folder\filenamehere.exe
+SFTP: LTFilePath=sftp://&lt;USERNAME&gt;:&lt;PASS&gt;@&lt;SFTPHOST&gt;/&lt;FOLDERANDFILE&gt;|&lt;SFTP HOSTKEY STRING&gt;
+Example: LTFilePath=sftp://fakeuser:fakepass@myserver/folder/filenamehere.exe|ssh-rsa 1024 ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff
+
+Script by: Darren White - Ray Morgan Company
+Updated 20171121</ScriptNotes>
+					<Permission></Permission>
+					<EditPermission></EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>0</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>1</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPzQqDMBCE74W+Qx7AkB9NJbLk0r9LhdKW3lOzgVyiRIX69kVpwZ6G2ZlvYeASGow9HuxgDTymDo0AtijcxrhvxzhgMhzYysHx3YU0M2hOKTg7ZaS2E5F5RiQXBdGV3FWqINca2KoL9yaFbnhi6kMb56f/h29+HoMzLyVUnpeeci8dFQJLap2WlEvnC620s178+AUAtp6y3XwA+0M6OtoAAAA=</LicenseData>
+					<ScriptData>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</ScriptData>
+					<ScriptVersion>20171121</ScriptVersion>
+					<ScriptGuid>b515337f-0f2d-11e7-ad92-02df4959daf1</ScriptGuid>
+					<ScriptFlags>0</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<PackedScript>
+				<NewDataSet>
+					<Table>
+						<ScriptId>6297</ScriptId>
+						<FolderId>0</FolderId>
+						<ScriptName>Example - How to use GetLTFile</ScriptName>
+						<ScriptNotes></ScriptNotes>
+						<Permission>0,</Permission>
+						<EditPermission>0,</EditPermission>
+						<ComputerScript>1</ComputerScript>
+						<LocationScript>0</LocationScript>
+						<MaintenanceScript>0</MaintenanceScript>
+						<FunctionScript>0</FunctionScript>
+						<LicenseData>H4sIAAAAAAAEAFWPTwuCQBTE70HfYT+Ay/5RK+Wxl4ouCVFR59X3pL2ssirktw+lwE7DzPAbGDi7inxHB9tbA/exJaNAzArXwe+bwfcUjASxcHB8ty5MDJknoacO7RixwobqxbSOmJZqyzZ5nOQyZZcCxAKAWxVc2z8odK7x0/J/8O1Pg0OTpERY7kou61hxpWjLLWaaS411kqUZ2lr9+BkAsfyzXn0APaZqBd8AAAA=</LicenseData>
+						<ScriptData>H4sIAAAAAAAEAOVcW08bORR+R+I/+KVVK5FkLkkDLbBtubRI3ETSXe0qL47tIRYz9mjsIVDtj99jZ5IMWUghZWicVqiML+Oc+Wwff985E7Y7JOOp3sca766vIbQ9KitbgOLBjc6waT3kLKYKNcYN5zjDCdMsK9V9iWUfx6WK0WB/Qicuxa6/3bhbcafXl5zT3WaLMdrf7Ne8KPRrvs/aNUy3gpoX0Ki51dqiOJqMYm+wNjfKRhfDdTRLJ0/xiejCgOKqqD/MhS0fUdNWKpUf0p956GCmHM6UmzPlVgkPmeldD+w1v4u6PSk0Fzkz9ZProu1MHfOE21vGl0XLkaBMaGwfBlrLxTIkUxTmwBLMgyXcehiY3e6AKwQ/GPWx4gSxG5ykMUN6gDXKmM44u2amOeJQG2UyQcfdzgBnbLtRDPGLka0FfrPd3AzfNTeXFOP3+3IoYonpZ3bJhV8JcL5LSzLw5qD1AD67h2YBYkHROdYDlINtGepmWKgILiIZmzIX49WJtES0gH197ewCfe12z983Ghv2ogNX6NvFsellF/Zs717v2+ne+afu1173rHd4dHyAaugkVxr1wQZCmFK8D7f1b83nseyaE1svc6EL84O707l73DUPYGwvOoRPmt9g5ef3U5qqHiWU48s6u2HVwBiuPIyHeRwjg5GAw326X2CBK3z9EKp7MklzYAI/hW1z5bF9FWt1DSs0e9VLMbnCl0z1TjjJpJKR/vHafRaUWy6h7LfnoPw4pljBWfnOJQjb8xbqAytqdt2GDyzIg4uLs4v7V6GxqbiaB2XbJSiDeSTN0osIw/+0zAbq6ATfwqFPMoY1+FOkObli+o9KFuamU2j6rRcTXFsuAfNIMWD2bgzyuyI9sGoadSxM79ek2LD5DUt3IpkBP0dcm20MO3e8k2FfCzZEDBNgQzxhdXSkEY6VRGTAyJUy3RN8xZDKjXwY3LnTfpKRyRrFDIMOCD1vw/M8UACaqXo1U7iApnNNDAfVILf6ammgdQoiNubXrK5uFRfAAgSs5jqRSSNVQEJJdSrKX30ZdR/VL+Pc+yHGz8L2/dUXVUeRdbbWww4wuNgYqBa9BdfNRMkFbyBqYtUJF+CII3D4xpmPm5EayDymxt1b90/r62se2kGnEr3ZZxHOY/12fc2Hmr+ZesR8HdpBFpsxpwTaQjPmV4ygU/psIQRPuOBJnthQYqqBXyj+3S7d+3mHKGgGKu8VYCMqwXFswp7achOl8gTuITLL8lQ3uCAFxYTdUOyCHQ+9jvUH2Bd7hvRwcfn6Un9YX3vEjHbARLD7s7FksXl1SywuMq/ACuHfi4DplFacGwfqt/xWGLajmhcF9CXjQL5TsnK5A0GBU3pz6SNBgVv5vBcMBQVOabsnxoKqkcOBU3JtwVjQd55aXlRHXWBI/xQlNORxbGQBM2/BEG10hAkSoY+zHvPjqCsMmWdixLJGOWWbRyMAEwbSJi5t02Q0+yEVxX+CBbSfa/GfsBrkVl+DdWSkhzhjvc5tgoVmpPcZk6s8PbiBy4tPf3XCoA5boqKXEVZfod0X/5lAneGhmovvs8R+Aqf00nJS/MApmbTkFN8pubT0FD90SzG9IMUPnRI/T6T41TCe0ClVNHdvfpySE+DkWJXINmzV//P2ash3+DtpplEOPcljzU2XVGowk+MYKZmbZPoG6ucavCTcJKSGoVKjobi2KfRrlvGIQ5MRRif7LZPEGViRZQWV8bImYcNLAyRYk0FF8/YbiKZmNcitvmjqShmr3inP9k72DXv/t8iiD4fDuuCZeYuzLphu5JrHqgE1JKHVqajw91RRBdC9H8L7LCIqdEpE/XQC3XyZR4BnV3mawlMz+zoUuNuZ7Dk442nGPM2k+UID9JUZFJhi2TUDLnw+qjcxLy5InFM2OYtNnZk5GxcDKIoTgheBs1ybV6gwpdw8CJwj6XSohOmBpArOAJPinxpqMvY75ywz9qKD4mOkGNk0ubuczd85L2xF+9OEqWX2b05l6aa3j0pvjgdbbJU5JTMrS/r/HIZuycuF0v7Ajr4adjTO9I8C1rCBKYtga9KNO/n/SfC6oFjUdh0ViH0my66UJVsTF2AoM8FkYEaDfT4egzKjPqjtm7Ha9B2D+tzTDUw2Fi/2hRC3FO5CCf++1/SYF/XfYYxp2ycB2cSYbHr9NvbDflQdtm5p5KUMDjadEs3LHRxsOqWXlz442HTrvc8XDA42nZKpTwwOVqPsm79CaI7Lxd+l+A/1w4KTpkIAAA==</ScriptData>
+						<ScriptVersion>1</ScriptVersion>
+						<ScriptGuid>45eedb8b-0f31-11e7-ad92-02df4959daf1</ScriptGuid>
+						<ScriptFlags>0</ScriptFlags>
+						<Parameters></Parameters>
+					</Table>
+				</NewDataSet>
+			</PackedScript>
+		</PackedScript>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>256</FolderID>
+					<ParentID>190</ParentID>
+					<Name>HP Drivers</Name>
+					<GUID>281cf898-5632-430f-b622-0a412c47c971</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>190</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Kyos</Name>
+					<GUID>8dbcd6db-d1b5-42e5-bd60-ab72156bee02</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>
