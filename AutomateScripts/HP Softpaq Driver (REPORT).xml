@@ -18,7 +18,7 @@ Will also fill the latest BIOS available which is required for a BIOS update scr
 				<MaintenanceScript>0</MaintenanceScript>
 				<FunctionScript>0</FunctionScript>
 				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyI+mfyy5qAhiQVS8b5sUcklL2oB9e2lRqKdhduZbGLi6xvrBHnFEDc+pt1oAWxTu0R+66EcbNAe2cnB69y7MjNVV5w1OCbmgjxgmIlRCJBc52ZVSlXJPbhWwVR8eTXD9+LJhcJ2fH/8fvvk5OqNV3pqmaFPaIi+oEDajtUJJOVdcpXWWKYE/fgGAredsNx+kDPjX3gAAAA==</LicenseData>
-				<ScriptData>H4sIAAAAAAAEAO1YbW/aOhT+Hon/cC5lG0jLK4SElovaC3RD2goqbPtS6crEDkQNMUucrdO0/z47GAioRNuq7o7tIgQ+Lz45efzYPnZ77MXBkvUQQ52SAtBeyUkmcLF/x2IkrJcBCXEC+towQjFaEEbinO5FSKcozClWwd5yp4BGHbOt7yp2vF6kAe7Yro+9lt9UfWS0VNMkjjq1kaUahm3Yzanj2CZaR8k6ZDnr+aRluDEjy81bXHhMJiBbUn+ZRpk8wB2nreek/EuanXL39GYU0xkX4DIISQLVO7dZu3k54l8YU5+N0Hvo0Y9RSBGG1yhCMxLfSMNaL9UauSPlti5D5x9kdQypt3b09T3UG3uynQOcxkxEyf6lrksjFkQpEfpNW9qGyatgEWRd1k1pGUSYRAxlaHFrXsxjvoW5AHerAHerVQC8QHDJoQ0SCKKEoTAkGP4C+RZBNNM07X4o9yD6vSE0CiA0zQNcG/df9bsTuBq+q9bO7uddp5vGMc+Zz38yCRZEetW/C0rzmKB0i6B0fdOdelNLJV7TUBu276kudl21bhG7hRtNrkUHwH7i0cUy5atlgJ8cwPp8D+zzH0LbOia0zeZPXXQB9Is3k+F1fzS8noB+/ebq5aDX6189ygpSP6aBsOp2wUjUD5D6acjOTkrK6pFwkbI5jU9hMqcLlED/NkwjvLHKLf8UTM3QjI1akP0ULFs3HN0yTGdrIEnWyPqM6DINuWcCKAIiKhLAvCQBX9Qk4NMY2JzAFHm36RL4NsHSRIOBDwbQ2+cQ+EC5XTjx7gYETOwnogeJY97Xo5hoJeXk6YydlZSSUukL9QqrUUx8wmelR+BveDbmNIxY+Gk9gM8yd8RNg8WSD7baHb8FdYTYHHLsFdXTN7L2mogwmpd8KIPaI6HgAk+8/LwsnvQx5pJKU8ZXEqhUK6hWUr6tYNgUFo1dznZClLAVYNLB3iFx438S/yEkxnHwQdTyP4nKyiWN+8ibQ1U+mdd3sE6ipnxWKh6HakbjTzwjqdeq5a5UlmtKJVnVhv9G6WLK++fd1rmdlGugcOSq22gqeQ/lfwbDMQ8haPA5++WfyjSgSbLcRtuNn7l9UcRX5P9ubyrmOz98Vuaj3Tsv7aOal0UV/vl2BTp/lH24+ftAlafF44DlHBNYhbW6Y9qG4TSR6rpNU21gD6suIoZqtnDdd3Bj2nLwA2r1+4bi+wp191eDuv6jvJSbgTinR5TtHNQHqzY/qIPw6r3+Mw7rRVCaRRdNdbPltZyGJ66/7IPXX48A4S93SC9ko1lQ6O296EOB+S/O02tZXsp+BXXJb6mjFQAA</ScriptData>
+				<ScriptData>H4sIAAAAAAAEAO1YbW/aOhT+Hon/cC5lG0gL5D2h5aL2At2QtoIK275UunISB6KGmCXO1mnaf58dDARUom1Vd8d2EQKfF5+cPH5sH7sz8ZJwSfuIom5FAuis5DQXmDi4owni1ssQR34KrbVhjBK0wBQnBd2LiLgoKihWwd4yp5DEXbXT2lXseL3IQr9rOoHvtQNLDpDSllUV27JrIk1WFFMxLde2TRWto+Qd8pxbxaRFuAnFy81bXHhUJCBaQn+Zxbk89Lt2p1WQii+pdqu905txQmZMgMswwinU7xyrcfNyzL4wIQEdo/fQJx/jiCAfXqMYzXByIwxrvVA38R2udloidPFBWlcRem1Hr++hbuzJZgFwklAeJf8Xuh6JaRhnmOs3bWEbpa/CRZh3WTeFZRj7OKYoR4tZi2IR8y3MJbhrJbhr7RLgOYJLBm2YQhinFEUR9uEvEG8RxrNms3k/lHsQ/d4QKiUQquoBrk0Grwa9KVyN3tUbZ/fzrtvLkoTlzOY/noYLLLz074JSPSYonTIonUB1XM/VZOxZimyYgSc7vuPIuobNtm9YTIsOgP3EI4tlxlbL0H9yAOvzPbDPfwht7ZjQVq2fuugCtC7eTEfXg/Hoegqt6zdXL4f9/uDqUVYQ/ZgGQtPNkpHQD5D6aUTPTirS6pFwkdE5SU5hOicLlMLgNspif2MVW/4pqE2lqWzUnOynoJktxW5pimpvDTjNG3mfMVlmEfNMAcWAeUUCPitJIOA1CQQkATrH4CLvNlsC2yZoljZhGIAC5PY5hAEQZudOrLsCIeX7Ce+Bk4T19YiPmxXp5OmMnlWkilQbcPUKq3GCA8xmpYfhb3g2YTSMafRpPYDPcnfETMPFkg223Ju8BXmM6BwK7OXV0zey9hrzME0v/VAFuY8jzgWWePV5lT/pY8IkmWSUrSRQq9dQoyJ9W8GwKSyMXc52I5TSFWDCwdwhsfE/if8QEvtJ+IHX8j+JytIlSQbIm0NdPJnVd7BOoiF9lmoeg2pGkk8sI6Fv1qs9oaw2pFq6qg3/jbOFy/oX3da5nVQbIDHk6ttoMn4P1X+GowkLwWnwOf9ln5obkjRdbqPtxs/dvkj8y/N/tzcVi50fPiuL0e6dl+ZRzcuyCv98uwKdP8o+bP0+UBVp8Thg2ccEVmmtrgWOq1u2LXtWYMmGY7myoxuWHGheGxmBYWPLeUCtft9QfF+h7vxqUOs/ykuxGfBzekzozkF9uGqzgzpwr/7rP+OwXgalWnbRpKttr20bHr/+Mg9efz0ChL/cIb2UjWpJobf3og8F5r84T69lcSn7FVhcq4qjFQAA</ScriptData>
 				<ScriptVersion>1</ScriptVersion>
 				<ScriptGuid>58fdc9f6-fa09-11e7-b5a2-005056b7751a</ScriptGuid>
 				<ScriptFlags>0</ScriptFlags>
@@ -51,17 +51,17 @@ Will also fill the latest BIOS available which is required for a BIOS update scr
 		<ExtraDataField>
 			<NewDataSet>
 				<Table>
-					<ID>589</ID>
+					<ID>601</ID>
 					<Form>1</Form>
-					<Name>Driver report</Name>
+					<Name>HPSPBIOS</Name>
 					<Sort>0</Sort>
 					<NoBreak>0</NoBreak>
 					<FType>0</FType>
 					<Section>VendorSpecific</Section>
 					<UnEditable>0</UnEditable>
 					<Collapsed>0</Collapsed>
-					<Fill>Will contain the  result of HP SDM csv report.</Fill>
-					<LtGuid>7150076a-8861-4dcd-8ae0-19d3f7d4b97d</LtGuid>
+					<Fill>Contains latest BIOS SPnumber</Fill>
+					<LtGuid>2f8b3677-c6f6-486b-8346-f2c9a4f47e68</LtGuid>
 					<IsPassword>false</IsPassword>
 					<IsEncrypted>false</IsEncrypted>
 					<IsHidden>false</IsHidden>
