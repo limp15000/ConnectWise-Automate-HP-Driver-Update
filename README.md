@@ -20,8 +20,8 @@ Once Download is complete the files are transferred automatically to C:\ProgramD
 4. HP SSM Driver Install
 This will run SSM locally using the setups downloaded by SDM.
 
-5. this will run SDM in report mode. It will then update the computer EDFs.
-e
+5. HP Softpaq Driver (REPORT)
+this will run SDM in report mode. It will then update the computer EDFs with the status of the drivers. Will also get the latest BIOS SP number
 
 Thank you to @Darrenwhite99 @steveit and @gavsto for their help troubleshooting/testing all of this.
 Usage
