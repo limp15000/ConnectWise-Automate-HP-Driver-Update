@@ -8,7 +8,9 @@
 				<ScriptId>6325</ScriptId>
 				<FolderId>256</FolderId>
 				<ScriptName>HP SSM Driver Install (UPDATE)</ScriptName>
-				<ScriptNotes>Checks if HP Softpaq is </ScriptNotes>
+				<ScriptNotes>Installs all drivers downloaded by HP SDM.
+Does not install BIOS !
+</ScriptNotes>
 				<Permission>0,</Permission>
 				<EditPermission>0,</EditPermission>
 				<ComputerScript>1</ComputerScript>
@@ -16,7 +18,7 @@
 				<MaintenanceScript>0</MaintenanceScript>
 				<FunctionScript>0</FunctionScript>
 				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyI+mqWXJRUUQC6LiPTZbyCUtaQP27aVFoZ6G2ZlvYeDiaww9HuxgDTzGDo0ANivcUti3KQwYDQe2cHB8dz5ODJqqDc6OGTnbkGwciVAZkVwUZFNKVcotuVbAFn2419F3wxNj79swPf4/fPNT8s5gkVtXa0mbptBUCNR0h7mjnCuu8pfWStgfPwPAlnPWqw9m5j7h3gAAAA==</LicenseData>
-				<ScriptData>H4sIAAAAAAAEAOWX34+aQBDH35v0f9iamNw9ICzID60h5yFaEz1Mse2LLyssdhNcLCw5//wuuF6RnKR3jenZJiTufGd22P1k2FkHfpCSHRshhuz37wAYHOysNLjp7lmKCu+Y4DjMgHx0LFCKtpjhtKJN4mSN4opwSPaVB5GE2nAgnwonUZOchDa2DBQGpipFkWVKEGJT6mEjlBRFV3RjbZo6RMcs5YRyzXJ10SKdz/DuaRfDgIkFiJHQxzkt7WlomwO5YlU3Ce2W018t0mTDDTAmMc7Azd4yblefFvwBfhKxBfoBRskjjRMUgjmiaIPTle/PO3iPWwNZ5KlmVW1F6OqJrtUQd2u2XqGbpKzIUv4KzUkoIzTHhf40Fj4vm5EtKacch8IzpSGmDJVouLdqVgH/YtoAWW2ArPYaKHNcgGSA0IyhOMYh+ADEDgjddDqd5zHW8Pzb+JQGfBCeqTPfnbnOEjx4325uPz5fc7aTpylfM//Q8ZJssYjSXoQSXhNKqwmlFUFrHaxVCQeGInX1KJCs0LIkTcV6L+waXEVnYLeDZLvL+bFIwvYZ1nc12Hevoq1eE21oXO50BZX5RaP6jXnTwxHTAvLQcdzFEsgP3mf33vP4aOTef5kAeeZN+i9MPEs2GU+5nC5nbr/VENkq3jeaDvk7LnKmaddUGo0toZ19x3Gc4iyPWfsirLpvjZX2Wlai4Ha84GRQ9FKasJNmKqqeN1NQxI7m/0dDbQIKm259GuwFPbMbSBFS9MNddK0jtXYXvQDCN9dIG2sS6ucZ1jb6p2D+Rs872uIf0k+bCbLaMA0AAA==</ScriptData>
+				<ScriptData>H4sIAAAAAAAEAOWX34+aQBDH35v0f9iamNw9ICzID60h5yFaEz1Msb0XX1ZY7Ca4WFhS//wuuF6RnDR3jenZJiTOfGd32P1k2FkHfpCSHRshhuz37wAYHPysdLjr7lmKiuiY4DjMgHwMLFCKtpjhtKJN4mSN4opwSPaVDyIJteFAPhVORk1yEtrYMlAYmKoURZYpQYhNqYeNUFIUXdGNtWnqEB2zlBPKNcvVRYt0PsO7p10MAyYWICyhj3Na+tPQNgdyxatuEtotp79apMmGO2BMYpyBm71l3K4+LfgD/CRiC/QdjJIfNE5QCOaIog1OV74/7+A9bg1kkaeaVbUVoasnulZD3K35eoVukrIiS/krNCehjNAcF/qTLWJeNiNbUk45miIypSGmDJVoeLTqVgH/YtoAWW2ArPYaKHNcgGSA0IyhOMYh+ADEDgjddDqd5zHW8Pzb+JQGfBCeqTPfnbnOEjx4jze3H5+vOdvJ05SvmX/oeEm2WIzSXoQSXhNKqwmlFUFrHaxVCQeGInX1KJCs0LIkTcV6L+waXEVnYLeDZLvL+bFIwvYZ1nc12Hevoq1eE21oXO50BZX5RaP67bzHo9QC8tBx3MUSyA/eZ/fe87g1cu+/TIA88yb9FyaeJZuMp1xOlzO332oY2SreN5oO+TsucqZp11QajS2hnX3DcZziLI9Z+yKsum+NlfZaVqLgdrzgZFD0Upqwk2Y6Pdi8mYJi7Gj+fzTUJqCw6danwV7QM7uBFCFFP9xF1zpSa3fRCyB8c420sSahfp5hbaN/CuZv9LyjL/4h/QQxCem1MA0AAA==</ScriptData>
 				<ScriptVersion>1</ScriptVersion>
 				<ScriptGuid>e86adc72-ff87-11e7-9e6d-005056b7751a</ScriptGuid>
 				<ScriptFlags>0</ScriptFlags>

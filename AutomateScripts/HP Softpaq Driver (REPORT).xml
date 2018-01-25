@@ -18,7 +18,7 @@ Will also fill the latest BIOS available which is required for a BIOS update scr
 				<MaintenanceScript>0</MaintenanceScript>
 				<FunctionScript>0</FunctionScript>
 				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyI+mfyy5qAhiQVS8b5sUcklL2oB9e2lRqKdhduZbGLi6xvrBHnFEDc+pt1oAWxTu0R+66EcbNAe2cnB69y7MjNVV5w1OCbmgjxgmIlRCJBc52ZVSlXJPbhWwVR8eTXD9+LJhcJ2fH/8fvvk5OqNV3pqmaFPaIi+oEDajtUJJOVdcpXWWKYE/fgGAredsNx+kDPjX3gAAAA==</LicenseData>
-				<ScriptData>H4sIAAAAAAAEAO1ZbW/aSBD+bon/MEdIASkLfrdJcigpkBYpLyjQ9kuk09peEyvGS+x1m6q6/95dY4ihidUmTa/cHUJ452XH42fHs7PD4diNgznrY4a7FQngcEEnGcHJwR2LsZCeBCT0EmgvBSMc4xlhJC7w3oTUwWGBsTD2nisFNOoqh+11xprWmzTwuobte27HN5GP5Q5SFGIhx8AqkmVDNkzHsgwFL61kEzKf20Wnc3NjRuarpzh2We5APsr5J2mU0UOvax22C1TxIZVutbd/NYrplBNwEoQkgcadbTav3o74F8bUZyN8C336KQop9uAMR3hK4qtcsOTn7Ba5I9XDdm66eCO1K+d8dY2vbaCub9BGAXAaM2Elu+a8Ho1YEKVE8FfjXHaRnAazIJuyHOaSYeSRiOEMLS4tkkXM72EuwV0twV3tlAAvEJxzaIMEgihhOAyJB39A/hRBNG21Wg9DuQHRvxtCuQRCRXkk1saD00FvAucXHxrNg4fjrttL45j7zN9/MglmJNfSfghKZZugtMugtH3FdlxHRcQ1ZaQbvotsz7aRphKj4+km5+JHwN516Wye8mwZeLuPYH20AfbRk9BWtwltxfylSRegffxucnE5GF1cTqB9+e787bDfH5y/SAbRtmkhVM0oWQntkaB+FbKDnYq0uCUcp+yaxvswuaYznMDgJkwjbyXNt/x9UFpyS16xRbDvg2q0Zautyop1LyBJNsjmjOg8DblmAjgCIioS8HhJAr6oScCnMbBrAg52b9I58G2CpUkLhj7IQG/2IPCBcrlQ4tNlCJjYT8QMEsd8rks90qpIO6+m7KAiVaTaQLAXWI1i4hP+VroE/oT6mIdhxMLPywWsZ+qYi4azOV9s1Bu/BzTC7BoK0Suqp++M2ksizLTc5GMVUJ+EIha449W9qrjTp5hTiKaMZxKoNWq4WZG+r2BYFRb6esx2Q5ywBWC5grEWxPo2BXFp7rYUQ5YtEyPbNhWke66HbExkpHQ8zbc83elY3jNy9z2OT0vbxjYB/X+2eEa28OLgozg0/aKcIZ3QeIDda2jkd+aFNCydaEpfpJrLoZrS+DP3KOe3GtVezqw2pVqyKML/itKZw+cX1Za+7VSbIHHkGvfWELmF6uvhxZibEGHwJfvln5oT0CSZ31tbt5+p/S2Jr/D/w0bOK05+fvorWnswAZpb9V6WHaUeSFE/t+CxtgkqxVLLjp2Lo9HkcnjW4NXi6XFv0KgfFYPlqL4H9av4KhLXenN1gPq5kNrbBGlp9O0mt2FMkjRkuy+CVGebkCotVFTfdjTTspBr+ibSbdNBtqabyFfdDtZ93SKm/fRC5dt1+MHD/G/XGNGeGpL51iraSxFla/2l4WIcRFMQWv2z/0aPqQxKpaw/qikdt2PprujaGo92bV8Awt+ut1QajUpJ2bzxoM8F5p9oAy3p/L+Er4mbreBaGAAA</ScriptData>
+				<ScriptData>H4sIAAAAAAAEAO1ZbW/aSBD+bon/MEdIASkGr9+d5FBSIC1SXlCg7Rek09peEyvGJva6TVXdf++uMcTQYLVJ0yt3hxDeednx+Nnx7OxwPHJif057mOJORQA4XtBJRjCyf09jzKVnPgncBNpLwRDHeEYoiQu8N0Fk46DAWBh7z5T8KOyg4/Y6Y03rTeq7Hc30XMfydNHDkiUiRAzR1rAsSpImabptGBrCSyvZhMzndtHp3NyIkvnqKU4dmjuQj3L+WRpm9MDtGMftAlV8SNSpdg8nwziaMgLO/IAk0Lg39ebk7ZB9YRR5dIjvoBd9CoMIu3CBQzwl8SQXLPk5u0XuSfW4nZsu3kjuSDlfXuMrG6irG7RWADyKKbeSXXNeNwqpH6aE81fjXHaVnPszP5uyHOaSQeiSkOIMLSYtkkXMH2AuwV0uwV22SoDnCM4ZtH4CfphQHATEhT8gfwo/nLZarceh3IDo3w2hVAIhQltibdQ/73fHcHn1odE8ejzuOt00jpnP7P0nY39Gci3lh6BEuwSlWQalY5oIYQOJmJiWqBq6IloGS04KdmxdQqZp2mQL2PtONJunLFv67v4WrE82wD55EtryLqGN9F+adAHap+/GV9f94dX1GNrX7y7fDnq9/uWLZBBllxZCVrSSlVC2BPWrgB7tVYTFLeE0pTdRfAjjm2iGE+jfBmnorqT5ln8IqCW1pBWbB/shyFpbMtqyhIwHAUmyQTZnGM3TgGkmgEMgvCIBl5Uk4PGaBLwoBnpDwMbObToHtk3QNGnBwAMJotsD8D2ImJwrsekS+JTvJ3wGiWM214lc0qoIe6+m9KgiVIRan7MXWA1j4hH2VjoE/oT6iIVhSIPPywWsZ+qYiQazOVtssTt6D+IQ0xsoRC+vnr4zaq8JN9Nyko9VEHsk4LHAHK8eVPmdPsWMEqOUskwCtUYNNyvC9xUMq8JCXY/ZToATugAsV9DWgljdpSAuzd0G0iTJ0LFomjoSVddxRRMTSUSWq3iGq9qW4T4jdz/g+LS0re0S0P9ni2dkCzf2P/JD0y/KGcJZFPexcwON/M6skIalE03hi1BzGFTTKP7MPMr5rUa1mzOrTaGWLIrwv8J0ZrP5RbWlb3vVJggMucaDNZHcQfX14GrETPAw+JL9sk/N9qMkmT9YW7efqf0t8C/3/8NGzitOfn76K1p7NAHqO/Velh2lHklRP7fgMXYJKmTIZcfOxdFofD24aLBq8fy022/UT4rBclI/gPoknoT8Wm+uDlA/F1JzlyAtjb795C6ISZIGdP9FkLJ2CanSQkX2TFvRDUN0dE8XVVO3RVNRddGTHQurnmoQ3Xx6ofLtOvzgYf63a4woTw3JfGvl7aUwomv9pcFi7IdT4Fq9i/9Gj6kMSlTWH1WQ5ViG6vCurba1a/sCEP52vaXSaEQlZfPGgz4XmH+iDbSk8/8SvgJW0PhpWhgAAA==</ScriptData>
 				<ScriptVersion>1</ScriptVersion>
 				<ScriptGuid>58fdc9f6-fa09-11e7-b5a2-005056b7751a</ScriptGuid>
 				<ScriptFlags>0</ScriptFlags>
@@ -28,17 +28,17 @@ Will also fill the latest BIOS available which is required for a BIOS update scr
 		<ExtraDataField>
 			<NewDataSet>
 				<Table>
-					<ID>592</ID>
+					<ID>602</ID>
 					<Form>1</Form>
-					<Name>LastDriverUpdate</Name>
+					<Name>Last Report Date</Name>
 					<Sort>0</Sort>
 					<NoBreak>0</NoBreak>
 					<FType>0</FType>
 					<Section>VendorSpecific</Section>
 					<UnEditable>0</UnEditable>
 					<Collapsed>0</Collapsed>
-					<Fill>Last time driver update was run.</Fill>
-					<LtGuid>8f18bcb2-ec60-45fc-8d88-32e59d46c60a</LtGuid>
+					<Fill></Fill>
+					<LtGuid>c8811a71-ae89-4763-97a2-3acb601888be</LtGuid>
 					<IsPassword>false</IsPassword>
 					<IsEncrypted>false</IsEncrypted>
 					<IsHidden>false</IsHidden>
