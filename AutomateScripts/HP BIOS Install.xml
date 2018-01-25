@@ -1,0 +1,72 @@
+﻿<LabTech_Expansion
+	Version="120.256"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6315</ScriptId>
+				<FolderId>256</FolderId>
+				<ScriptName>HP BIOS Install</ScriptName>
+				<ScriptNotes>Uses the HP SoftPaq# to download, extract and install system BIOS.
+BIOS must first be downloaded by SDM and placed in the default location.
+The SPnumber is set in an EDF which is recovered by the HP Softpaq Driver (REPORT)</ScriptNotes>
+				<Permission>1,5,11,13,</Permission>
+				<EditPermission>1,5,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBBF94J3yAEakqk2lTJko+LGgmhxH5spZpOWtAF7e21RqKth5v/3YPDsavI9HcxgNFZjRxpQzBOv0e/b6AcKWqJYbHh8dS5MDOnqGUNvzZiw0owMsoSlErYsK6QqIGWXEsWijbc6uG64U+hd6yft/+Gbn6Kzutmpj4pq3ihpOQDl/CFz4FJKuzEAlnbqx88AiuUz69Ubj+8mmtwAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWaXW+bMBSG7yftP/gmN1NZMFAgUYTatUkXqVujsY+b3BgwqTViUjBqf34NJS1hw21ZSOOsqlSObVL89PXrc3BHrp+QFTtHDDnv3wEweojTIuDh+I4lKO+dEBwFKeivO2YoQUvMcJI6J24cshm6+ZotT0b9Skc59CKKPRRV7n34HT/5EBJTB476mw0boy4yEjihbWoqxL4SmmqgQIgtxVMtqKiqGugIwgDb5vpTihuKqfSrcyk/zmV49fhgpz4rH6C8KtsnGS3iaZD3VaLq3GGNhVaL9Vps1OLjCo84YY7Knzf/WbadxZQRmuG8/fG67LtKL8mSFLesL8ueKQ0wZaiYDO+thlUkTxQEWDQRFlVvBuNooe3ppmUpvhmaimGbnmLrhqmEmj9ARmhY2LRLocBNhs6JHy9XGVcPCdZa0jaxOk9qKwfoh8tZUwWYYQPD70mGm9gVTzGmC0LxmCIvwpfxYoGTViShTCQtEck/JFVHqv6dZ32JP/5JDCE4TSZwUBvszAP1bYOBBwLGeD0YOPgvJHPcgoz5dmSgIbChs+F8lsQLfp1nXPPPM/4NSm8C5/EtjWIUgC+IIm7Zc/fXummerqo52Ed8hxt8DDbsC7DVBmBK5WOijKV3S2hAkt6c4eXqxTj/UbqWVG63p8od4iSJ2+UvtlzyFXiqMyQ0ZSiKOtHpQCpOz+nUvXUxy+qLnOv10/TK/TE7/zY+M42dWSiUqhzJd85GtsmSO2gODjRSBv0U9G86ESncejXSqZuKQG7RTIGSAqWb3QtKVcWIMlKnl17jKEpwmkWs1w2srVc2B+mhWjsPbVEd2fvpoa9hW6xtrxu5tqiqxETfNDV9AdLdZp6wReVkyazYrvXaopQS8+xSr8K9aEIiDPxr7P8GK5SmOABhnICcJOgyx4dSFUOa4FjG0VW1G0Ry1UGGvbN3cJpcRYxw/Q1DQgnPB4NONKRJdWbyzDuH6v63ZUyHU1t84F/jHNTRU+k2QdzkgyNw6vE5ErrIx3TDUa6yY4fHBlqLmmFvF2K3ltWiFtjTtTh9SKB4TlV5obKZtXaDUK6Dkl0uw62fgbyAzDou/+npHtzJ+/0DJQAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>f86201ec-f60d-11e7-b071-000d3a11de86</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters>@SoftPaqNum@</Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>601</ID>
+					<Form>1</Form>
+					<Name>HPSPBIOS</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>VendorSpecific</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Contains latest BIOS SPnumber</Fill>
+					<LtGuid>2f8b3677-c6f6-486b-8346-f2c9a4f47e68</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>256</FolderID>
+					<ParentID>190</ParentID>
+					<Name>HP Drivers</Name>
+					<GUID>281cf898-5632-430f-b622-0a412c47c971</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>190</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Kyos</Name>
+					<GUID>8dbcd6db-d1b5-42e5-bd60-ab72156bee02</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>
