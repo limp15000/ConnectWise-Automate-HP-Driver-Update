@@ -23,6 +23,9 @@ This will run SSM locally using the setups downloaded by SDM.
 5. HP Softpaq Driver (REPORT)
 this will run SDM in report mode. It will then update the computer EDFs with the status of the drivers. Will also get the latest BIOS SP number
 
+6. HP BIOS update
+Please note I am still testing this. It will also only work for Elitebook, Probook. On a spectre model BIOS update works differently.
+
 Thank you to @Darrenwhite99 @steveit and @gavsto for their help troubleshooting/testing all of this.
 Usage
 
