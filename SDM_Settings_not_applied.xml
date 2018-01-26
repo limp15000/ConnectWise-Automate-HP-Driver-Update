@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="120.269"
+	Name="LabTech Search Expansion"
+	Type="Search">
+	<Search>
+		<NewDataSet>
+			<Table>
+				<SensID>955</SensID>
+				<Name>HP_SDM_Settings_Missing</Name>
+				<SQL>SELECT 
+   computers.computerid as `Computer Id`,
+   computers.name as `Computer Name`,
+   clients.name as `Client Name`,
+   computers.domain as `Computer Domain`,
+   computers.username as `Computer User`,
+   Computers.BiosMFG as `Computer.Hardware.Manufacturer`,
+   IF(INSTR(computers.os, 'server')&gt;0, 1, 0) as `Computer.OS.IsServer`,
+   IF((Computers.flags &amp; 2048) &lt;&gt; 0, 1, 0) as `Computer.Hardware.IsVirtual`,
+   IFNULL(IFNULL(edfAssigned1.Value,edfDefault1.value),'0') as `Computer - Extra Data Field - VendorSpecific - HP SDM Settings Set`
+FROM Computers 
+LEFT JOIN inv_operatingsystem ON (Computers.ComputerId=inv_operatingsystem.ComputerId)
+LEFT JOIN Clients ON (Computers.ClientId=Clients.ClientId)
+LEFT JOIN Locations ON (Computers.LocationId=Locations.LocationID)
+LEFT JOIN ExtraFieldData edfAssigned1 ON (edfAssigned1.id=Computers.ComputerId and edfAssigned1.ExtraFieldId =(Select ExtraField.id FROM ExtraField WHERE LTGuid='244c9010-daaa-428e-9bbc-29f6aad767fa'))
+LEFT JOIN ExtraFieldData edfDefault1 ON (edfDefault1.id=0 and edfDefault1.ExtraFieldId =(Select ExtraField.id FROM ExtraField WHERE LTGuid='244c9010-daaa-428e-9bbc-29f6aad767fa'))
+ WHERE 
+((((Computers.BiosMFG = 'Hewlett-Packard') AND (IF(INSTR(computers.os, 'server')&gt;0, 1, 0)=0) AND (IF((Computers.flags &amp; 2048) &lt;&gt; 0, 1, 0)=0) AND (((SELECT COUNT(*) FROM Software WHERE Software.ComputerId = Computers.ComputerId  AND Software.Name = 'HP Softpaq Download Manager')&gt;0)) AND (IFNULL(IFNULL(edfAssigned1.Value,edfDefault1.value),'0')=0))))
+</SQL>
+				<QueryType>4</QueryType>
+				<ListDATA>Select||=||=||=|^Select|||||||^</ListDATA>
+				<FolderID>23</FolderID>
+				<GUID>4eae3850-4a61-4389-a364-fe90d962bc4f</GUID>
+				<SearchXML>&lt;LabTechAbstractSearch&gt;&lt;asn&gt;&lt;st&gt;AndNode&lt;/st&gt;&lt;cn&gt;&lt;asn&gt;&lt;st&gt;AndNode&lt;/st&gt;&lt;cn&gt;&lt;asn&gt;&lt;st&gt;ComparisonNode&lt;/st&gt;&lt;lon&gt;Computer.Hardware.Manufacturer&lt;/lon&gt;&lt;lok&gt;Computer.Hardware.Manufacturer&lt;/lok&gt;&lt;lmo&gt;Equals&lt;/lmo&gt;&lt;dv&gt;Hewlett-Packard&lt;/dv&gt;&lt;dk&gt;Hewlett-Packard&lt;/dk&gt;&lt;/asn&gt;&lt;asn&gt;&lt;st&gt;ComparisonNode&lt;/st&gt;&lt;lon&gt;Computer.OS.IsServer&lt;/lon&gt;&lt;lok&gt;Computer.OS.IsServer&lt;/lok&gt;&lt;lmo&gt;IsFalse&lt;/lmo&gt;&lt;dv&gt;NULL&lt;/dv&gt;&lt;dk&gt;NULL&lt;/dk&gt;&lt;/asn&gt;&lt;asn&gt;&lt;st&gt;ComparisonNode&lt;/st&gt;&lt;lon&gt;Computer.Hardware.IsVirtual&lt;/lon&gt;&lt;lok&gt;Computer.Hardware.IsVirtual&lt;/lok&gt;&lt;lmo&gt;IsFalse&lt;/lmo&gt;&lt;dv&gt;NULL&lt;/dv&gt;&lt;dk&gt;NULL&lt;/dk&gt;&lt;/asn&gt;&lt;asn&gt;&lt;st&gt;AnyMeetsNode&lt;/st&gt;&lt;lon&gt;Applications&lt;/lon&gt;&lt;lok&gt;Applications&lt;/lok&gt;&lt;cn&gt;&lt;asn&gt;&lt;st&gt;ComparisonNode&lt;/st&gt;&lt;lon&gt;Computer.Applications.Name&lt;/lon&gt;&lt;lok&gt;Computer.Applications.Name&lt;/lok&gt;&lt;lmo&gt;Equals&lt;/lmo&gt;&lt;dv&gt;HP Softpaq Download Manager&lt;/dv&gt;&lt;dk&gt;HP Softpaq Download Manager&lt;/dk&gt;&lt;/asn&gt;&lt;/cn&gt;&lt;/asn&gt;&lt;asn&gt;&lt;st&gt;ComparisonNode&lt;/st&gt;&lt;lon&gt;Computer.Extra Data Field.VendorSpecific.HP SDM Settings Set&lt;/lon&gt;&lt;lok&gt;Computer.Edf.244c9010-daaa-428e-9bbc-29f6aad767fa&lt;/lok&gt;&lt;lmo&gt;IsFalse&lt;/lmo&gt;&lt;dv&gt;NULL&lt;/dv&gt;&lt;dk&gt;NULL&lt;/dk&gt;&lt;/asn&gt;&lt;/cn&gt;&lt;/asn&gt;&lt;/cn&gt;&lt;/asn&gt;&lt;/LabTechAbstractSearch&gt;</SearchXML>
+			</Table>
+		</NewDataSet>
+	</Search>
+</LabTech_Expansion>
