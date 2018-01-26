@@ -1,5 +1,5 @@
 ﻿<LabTech_Expansion
-	Version="120.256"
+	Version="120.269"
 	Name="LabTech Script Expansion"
 	Type="PackedScript">
 	<PackedScript>
@@ -16,13 +16,59 @@
 				<MaintenanceScript>0</MaintenanceScript>
 				<FunctionScript>0</FunctionScript>
 				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyI+m1bLkoiKIBVHxnjYbyCUtaQP27aVFoZ6G2ZlvYeDqGww9Hs1gNDzHDrUANivcUzi0KQwYNQe2cHB6dz5ODOqqDdaMGbmYkEwciVAZkVzsyKaUqpRbcquALfrwaKLvhhfG3rdhevx/+Obn5K2urXM7mXPqnHJUCCzoHnNLOVdc5XVRKGF+/AwAW85Zrz47fxGL3gAAAA==</LicenseData>
-				<ScriptData>H4sIAAAAAAAEANWWwU7jMBCG70j7DoYTHJrEKWnLKopUUQpIrLZSJU65uHjStZTaIZ6IPj5O6oDbXcKhsGqlSPH/TzzxfJqMEs+fSlHghCFLfpwQEm+0boSRN2ssWR2dCsi5Jn4bmLGSrQChdLzbXC1Y7hibZI/mIaFkQmN/29h66rYSPFnwLBuFg6CXZVHWoxSGvSsY8F4QREE0WAyHEWVtlmZDc2bfPbRNN0co3qoYP6E9gF1Zf1rJRt/zZBj7jnKLpMnZ9c90VqqlEWQqctDkfD0aXKR3M3ORucpwxp7JRL3IXDFOfjHJllCmNtD61vZgDWexb1O7LwqTwPrhlt/foX65oyMHuCqxztLcrXetJApZQe2/rW3st34QK9FsaZc2ci85SGQNLRN1pcv8HXMH97CDO+13gH/nXrfgZ7wnkLEqR0/z1b/57nD7Kq70ELmGVx1ca4SFQSg0EVIjy3Pg5JTYKoRcep73LQjpMbVmOOpAOC4Knf4pTK+l3PYdrvGD73rfPt5vHoRHBb2rby21F1bCX9iIBjS1LDWpCs4Q+Pd0cP/QYPb3hFnPAalwaxCMF6ZEw/K/jtHDJEijjxHuFHqMw7HV9gfwFa+14pQPCgAA</ScriptData>
+				<ScriptData>H4sIAAAAAAAEAN2XXWvbMBSG7wf7D1qh0F4osfztLZiGfHSFbg2kbDe5ObbkTODYni3T/PzKrtI6We2xhEAyCFjnPbKs8+TViTOYhznPxBgE+B8/IDR4iYs6kOFkLXKoslPOYlqg/iYxgxxWTLC8od3GaQBxQ3hZ7IecxNPEJ4P+trA167bk1A9oFLm6reEosiJMCHOwx2yKNc3SLDtwHIvAZpX6hnrP/eam1XJzwbLXKoahUBtQI6VPy6SO76jvDPqNqFkk8S9GnxezPF3KAE15zAp0tXbt68XXmfygeRqJGfxG4/QpiVOg6BsksGT5QiU2upJ7bM0uBn21dPNBuq8pXd/SjR3q5k5sNYCnuahWqa9KG6WJ4EnJKv11rHIPxT1f8fqWzVBl7hLKEgE1LZlthk3mb5g7uOsd3HWtAzwhLaDmk/vJ6BF9f/h5df3lfWj+qMxzuWdpXvbIV0zNMv5flMToQPlm4eo0/826YxZBGYteQVfvfwM73P7VoqSFKzlFrm6XRUPNptQiFjZdI8QmYRF2DRtwYHjAQDYwG6wWE1+G6SorZQvl9LLFwzc7Jr7Zy8X6OblY9zpoV4bNpGF5gXhSCIhjRtEnpKrgybLX6x3FsMZZIXQ7EA6zrFj8yuTJXlB1ysVatFj00K5x2A+ZeVbQu3yrqD1Bzv7AhgomZC3LApUZleecHsfB1jnB7Gy5ummGnkY0TAEAm7rLsBcEIda9yAagju1EsH/LJXu1WPvU6BoHWrXqskkqttrsMJAlSqcexZ8n96rVSZBY7Qh3Cj3Wu9IxwWxi9b/wGa6LCI4mDgAA</ScriptData>
 				<ScriptVersion>1</ScriptVersion>
 				<ScriptGuid>bdff8260-ff5f-11e7-9e6d-005056b7751a</ScriptGuid>
 				<ScriptFlags>0</ScriptFlags>
 				<Parameters></Parameters>
 			</Table>
 		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>604</ID>
+					<Form>1</Form>
+					<Name>HP SDM Settings DATE</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>VendorSpecific</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Date when SDM settings were installed</Fill>
+					<LtGuid>c06dd515-483c-41ef-836a-b39aea1e76a5</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>603</ID>
+					<Form>1</Form>
+					<Name>HP SDM Settings Set</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>1</FType>
+					<Section>VendorSpecific</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Ticked when settings set.</Fill>
+					<LtGuid>244c9010-daaa-428e-9bbc-29f6aad767fa</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
 		<ScriptFolder>
 			<NewDataSet>
 				<Table>
