@@ -1,5 +1,5 @@
 ﻿<LabTech_Expansion
-	Version="120.269"
+	Version="120.291"
 	Name="LabTech Script Expansion"
 	Type="PackedScript">
 	<PackedScript>
@@ -18,7 +18,7 @@ The SPnumber is set in an EDF which is recovered by the HP Softpaq Driver (REPOR
 				<MaintenanceScript>0</MaintenanceScript>
 				<FunctionScript>0</FunctionScript>
 				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBBF94J3yAEakqk2lTJko+LGgmhxH5spZpOWtAF7e21RqKth5v/3YPDsavI9HcxgNFZjRxpQzBOv0e/b6AcKWqJYbHh8dS5MDOnqGUNvzZiw0owMsoSlErYsK6QqIGWXEsWijbc6uG64U+hd6yft/+Gbn6Kzutmpj4pq3ihpOQDl/CFz4FJKuzEAlnbqx88AiuUz69Ubj+8mmtwAAAA=</LicenseData>
-				<ScriptData>H4sIAAAAAAAEAOWaXW+bMBSG7yftP1iVcjOVBQMFEkUoXZu0kbo1Gvu4yY0DJrVGTApG7c+foaQlbLgtC2mcRZHiYxtkPzl+fQ5m4HoxWbFzxJDz/h0Agwc7yQ1uju5ZjLLWMcGhn4DuumGKYrTEDMeluoswmqOwVPFwsx+8E4moAwfdzYqNXhcp8Z3ANjUVYk8JTNVXIMSWMlctqKiq6usIQh/b5vou+QX5mLvlQRe3cxlePc7i1GPFAIpSUT9OaW5P/KytZJUnCSuT1iq2XrGNin1S4hHFzFH5eLPfou4soozQFGf1j+Wi7Tq5IkuSX7IuFi0T6mPKUD4Z3lo2y0ieKAiwaCIsql4PxtECe66blqV4ZmAqhm3OFVs3TCXQvB4yAsPCpj3oFp03GDpDL1quUu4/xB8WXbRNrI4bBWyKbr+ky6KDfricNVWAGdYw/BanuI5dPooRXRCKRxTNQ3wVLRY4bkQSykTSEpH8w6WqSNW/86wu8ce/xBCC02QCB7XezjRQ3zYYeCBgjNeDgb3/wmVOGpAx344MNAQydNafTeNowctZaDW7nPIvKLQJnEd3NIyQDz4jirhkz9yf66pZsho+SdjwI77HNToGa/YF2GgDMKXSMVHE0rkj1CdxZ8bwcvVinP/oupZUarenntvHcRw1i19sudxXoKlOn9CEoTBsxU97UnF6zk/dOxeztLrIub9+mly736fnX0dnprEzCYVSpSPZzlnLNl5yBc3AgVrKoJuA7m0rTgq3no20qqYikEdbVNMjoCRAaWf/glLlMaKY1OkkNzgMY5ykIeu0A2vruc1BqqjWTEUb5Ef2fqroa9jma3vejrs2yKvERN80OH0B0t3GnrBB7mTJ7LFt+2uDZErMs01/Fe5FYxJi4N1g7xdYoSTBPgiiGGQkQZtRPpQqHdIEBzOOrqrtIJIrEzLsnT2F0+RKY4Trrx8QSng86LfiQ5pUpybPPHUo739bxnQ4ucUH/hlloI6fcrcx4iLvH4PTOZ8joYusTzsc5Uo7dnhwoDXIGfZ2IbYrWQ1ygT1di5OHAIrHVKUnKptRazsI5Toq2eUy3PopyAvIrO3i/abfHcF+be4kAAA=</ScriptData>
+				<ScriptData>H4sIAAAAAAAEAO1b3W6jOBS+X2nfwVspGmk1JBgoJFUVtdOmM5U606g0Mze5MWBSa8EwxrTzSn2OvtjahLRpOnhbNqShM1XU4B8MfD5853z2yb7rM5LyY8TR8M8/ANifl7OiIIqjH5wh2XpCcBRkoLdoGCOGYswxW6r7GCUeipYq5oN9FZ1IQodwv/e44lGvjzkJhmHfNnSIfS209UCDEDuapztQ03U9MBGEAe7bi1GKE4p77i3fdDmcy3F6/xSHPi9voDwq609yWpRPA9m2VFp+SLjy0MZK2VwpWyvl3SU8EsaHurhf+V3WHSWUE5pjWX9/XLadZ2ckJsUpi8Oy5ZQGmHJUPIxoXS4uQ/KAggIWQwWLblYDMzTCvmfajqP5dmhrVt/2tL5p2Vpo+ANkhZaD7f5+r+z8CMPhgZ/EaS7shwQHZRfjMaxDNwn5GH3/ksdlB/NXxdlzTH3X6A+0wUB3NMsxoeZ50BE46543cHwDQr8+zh9Oz93xoet+O784dkeXtcCGbQLb6CuwPkzTbHqVZkE8zbCfM9z1CK0A92hv6t64mOfpNEsPHuz14OmpK6C/kDOMVsG7q4D37B2hGUdRVFwYBDmQ5geuEQjubj1pqF3wNeEMg4QFhCKOcwZSnHOQYRCSGZYlGiDKQfQuSe9uWTFQF3zBIEUZuLvlmNBAnp8DhsWgMWJMnHW9Oii6LgbBIMZZhmYYBBj4CQ0Ji+dDVkx6R3TKkgjTPPYw66xlfs1Wza+umF9Ygdoly3EVzxd3MaIzQvGIIi/CZ8lMTHQtIrLahKSjQvKJ+1uFVH+e6d1PiaUEbrdNwEFjsLF4zV43MPCNAOO8HBg4+CVMpl8DGfv1kIGWgoZEjDNmyUwcSxk4/TQWH1ByEzhObmiUoAB8RlS4UDZ1vy2qViKiLv6BK3gMVvgFWMsBDFrFY6qov3MjAhnCOlOO49UAsxrO/2m6cO2yqVG621LT3cOMJfUCGNgqKQVNBasO98pYvxlLbZUo+k9LrRCSn8ZSH03GxxejI9vaGIvCVikS6TwrsWWxIFEJHKhEGfQy0PvejJWuXZA0yqcqIHfWyKc7QMuA1pALa5WUUYWlw052haOI4SyPeKcZsNYub94ki5r1WLSGROpv52rEzxeJV+EzXuaEnrk0AWvoqS11Rs8z0cJbSZ/kgR5r5rWvIZPUlvlqbuklkKY7z1my32kWe6OGxHpF7NdAuZtVUEYNBeX8Zt0nMLZLX7WBdY0aqkptmb9Z99nY1xBir4e9UhWckAgD/wr7/8gtzwwHIEzYfB+1yQUXo1W6CtoqYq02yGaga5fKshQJEmveKjFqSKQt3Xcc7oWEEqHYg2ZsqF0qSL0wvBzdrRmmVm0AKe3pb/E3kkC9f1hdO0GC/IP34NATz0joTPZpBEezXflzG9zdNd/SDk2jlGW2SkIo89Y+Y+YTmSKmzClLE/FPQIoikon26KfJbl3gTi4uzyeXgM5z1vwkT2VvmX+WM5mVtkhx8zHn4gL3aW7gr00mpbVqD0jJpKfzaRCR8tKOxePAr5kXoFXpaBsl0a0TE2Zd45rIV11cmAjz+kCSDEzSQNBBIwa1dU5Zhdom7ek1fPKiXP565l8itKsuTDMAAA==</ScriptData>
 				<ScriptVersion>1</ScriptVersion>
 				<ScriptGuid>f86201ec-f60d-11e7-b071-000d3a11de86</ScriptGuid>
 				<ScriptFlags>0</ScriptFlags>
@@ -39,6 +39,29 @@ The SPnumber is set in an EDF which is recovered by the HP Softpaq Driver (REPOR
 					<Collapsed>0</Collapsed>
 					<Fill>Contains latest BIOS SPnumber</Fill>
 					<LtGuid>2f8b3677-c6f6-486b-8346-f2c9a4f47e68</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>605</ID>
+					<Form>1</Form>
+					<Name>Bios Password Set</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>1</FType>
+					<Section>VendorSpecific</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>b7305289-9907-4731-bb17-f20bb97c211c</LtGuid>
 					<IsPassword>false</IsPassword>
 					<IsEncrypted>false</IsEncrypted>
 					<IsHidden>false</IsHidden>
