@@ -1,7 +1,8 @@
 # ConnectWise-Automate-HP-Driver-Update
 Update 28.02.2018
 So guess what, HP updated the SDM package but without updating their website... Found the links and updated my install script. 
-New version is 4.3.22.0
+New version is 4.3.22.0 
+Please download new scripts !
 
 The goal of these scripts is to automate the download and update of HP drivers. At the moment tests have been done on workstations running Windows 8.1 and Windows 10 and soon 7.
 I've created five scripts at the moment.
